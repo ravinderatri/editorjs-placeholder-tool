@@ -1,0 +1,10 @@
+
+### Step 6: Build the Package
+
+Create an entry file for your package, e.g., `index.js`:
+
+**`index.js`**
+```js
+const PlaceholderTool = require('./placeholder-tool');
+
+module.exports = PlaceholderTool;
